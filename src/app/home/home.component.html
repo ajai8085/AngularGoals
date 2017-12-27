@@ -16,8 +16,8 @@
     </form>
   </div>
   <div class="col">
-    <p class="life-container" *ngFor="let goal of goals" >
-      {{goal}} <a href="#" (click)="removeItem()" class="pull-right" >X</a>
+    <p class="life-container" *ngFor="let goal of goals;let i = index" >
+      {{goal}} <a href="#" (click)="removeItem(i)" class="pull-right" >X</a>
     </p>
   </div>
 </div>
