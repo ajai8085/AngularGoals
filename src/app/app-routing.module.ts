@@ -6,7 +6,6 @@ import { AboutComponent } from './about/about.component';  // Add this
 
 
 const routes: Routes = [
-
   {
     path: '',
     component: HomeComponent
@@ -15,7 +14,6 @@ const routes: Routes = [
     path: 'about/:id',
     component: AboutComponent
   }
-
 ];
 
 @NgModule({
